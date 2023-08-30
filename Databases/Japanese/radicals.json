@@ -1,0 +1,2427 @@
+[
+	{
+		"text": "亅",
+		"reading": "Barb",
+		"level": 1
+	},
+	{
+		"text": "大",
+		"reading": "Big",
+		"level": 1
+	},
+	{
+		"text": "工",
+		"reading": "Construction",
+		"level": 1
+	},
+	{
+		"text": "十",
+		"reading": "Cross",
+		"level": 1
+	},
+	{
+		"text": "丶",
+		"reading": "Drop",
+		"level": 1
+	},
+	{
+		"text": "入",
+		"reading": "Enter",
+		"level": 1
+	},
+	{
+		"text": "ハ",
+		"reading": "Fins",
+		"level": 1
+	},
+	{
+		"text": "一",
+		"reading": "Ground",
+		"level": 1
+	},
+	{
+		"text": "img=gun",
+		"reading": "Gun",
+		"level": 1
+	},
+	{
+		"text": "亠",
+		"reading": "Lid",
+		"level": 1
+	},
+	{
+		"text": "山",
+		"reading": "Mountain",
+		"level": 1
+	},
+	{
+		"text": "口",
+		"reading": "Mouth",
+		"level": 1
+	},
+	{
+		"text": "九",
+		"reading": "Nine",
+		"level": 1
+	},
+	{
+		"text": "人",
+		"reading": "Person",
+		"level": 1
+	},
+	{
+		"text": "力",
+		"reading": "Power",
+		"level": 1
+	},
+	{
+		"text": "勹",
+		"reading": "Prison",
+		"level": 1
+	},
+	{
+		"text": "川",
+		"reading": "River",
+		"level": 1
+	},
+	{
+		"text": "七",
+		"reading": "Seven",
+		"level": 1
+	},
+	{
+		"text": "丿",
+		"reading": "Slide",
+		"level": 1
+	},
+	{
+		"text": "img=stick",
+		"reading": "Stick",
+		"level": 1
+	},
+	{
+		"text": "日",
+		"reading": "Sun",
+		"level": 1
+	},
+	{
+		"text": "ト",
+		"reading": "Toe",
+		"level": 1
+	},
+	{
+		"text": "木",
+		"reading": "Tree",
+		"level": 1
+	},
+	{
+		"text": "二",
+		"reading": "Two",
+		"level": 1
+	},
+	{
+		"text": "女",
+		"reading": "Woman",
+		"level": 1
+	},
+	{
+		"text": "本",
+		"reading": "Book",
+		"level": 2
+	},
+	{
+		"text": "弓",
+		"reading": "Bow",
+		"level": 2
+	},
+	{
+		"text": "子",
+		"reading": "Child",
+		"level": 2
+	},
+	{
+		"text": "牛",
+		"reading": "Cow",
+		"level": 2
+	},
+	{
+		"text": "土",
+		"reading": "Dirt",
+		"level": 2
+	},
+	{
+		"text": "犬",
+		"reading": "Dog",
+		"level": 2
+	},
+	{
+		"text": "夕",
+		"reading": "Evening",
+		"level": 2
+	},
+	{
+		"text": "目",
+		"reading": "Eye",
+		"level": 2
+	},
+	{
+		"text": "火",
+		"reading": "Fire",
+		"level": 2
+	},
+	{
+		"text": "五",
+		"reading": "Five",
+		"level": 2
+	},
+	{
+		"text": "尸",
+		"reading": "Flag",
+		"level": 2
+	},
+	{
+		"text": "彡",
+		"reading": "Hair",
+		"level": 2
+	},
+	{
+		"text": "手",
+		"reading": "Hand",
+		"level": 2
+	},
+	{
+		"text": "冂",
+		"reading": "Head",
+		"level": 2
+	},
+	{
+		"text": "天",
+		"reading": "Heaven",
+		"level": 2
+	},
+	{
+		"text": "王",
+		"reading": "King",
+		"level": 2
+	},
+	{
+		"text": "img=leaf",
+		"reading": "Leaf",
+		"level": 2
+	},
+	{
+		"text": "儿",
+		"reading": "Legs",
+		"level": 2
+	},
+	{
+		"text": "中",
+		"reading": "Middle",
+		"level": 2
+	},
+	{
+		"text": "月",
+		"reading": "Moon",
+		"level": 2
+	},
+	{
+		"text": "ナ",
+		"reading": "Narwhal",
+		"level": 2
+	},
+	{
+		"text": "ム",
+		"reading": "Private",
+		"level": 2
+	},
+	{
+		"text": "田",
+		"reading": "Rice Paddy",
+		"level": 2
+	},
+	{
+		"text": "小",
+		"reading": "Small",
+		"level": 2
+	},
+	{
+		"text": "立",
+		"reading": "Stand",
+		"level": 2
+	},
+	{
+		"text": "又",
+		"reading": "Stool",
+		"level": 2
+	},
+	{
+		"text": "止",
+		"reading": "Stop",
+		"level": 2
+	},
+	{
+		"text": "丁",
+		"reading": "Street",
+		"level": 2
+	},
+	{
+		"text": "刀",
+		"reading": "Sword",
+		"level": 2
+	},
+	{
+		"text": "千",
+		"reading": "Thousand",
+		"level": 2
+	},
+	{
+		"text": "メ",
+		"reading": "Treasure",
+		"level": 2
+	},
+	{
+		"text": "水",
+		"reading": "Water",
+		"level": 2
+	},
+	{
+		"text": "白",
+		"reading": "White",
+		"level": 2
+	},
+	{
+		"text": "文",
+		"reading": "Writing",
+		"level": 2
+	},
+	{
+		"text": "矢",
+		"reading": "Arrow",
+		"level": 3
+	},
+	{
+		"text": "广",
+		"reading": "Canopy",
+		"level": 3
+	},
+	{
+		"text": "方",
+		"reading": "Direction",
+		"level": 3
+	},
+	{
+		"text": "戸",
+		"reading": "Door",
+		"level": 3
+	},
+	{
+		"text": "干",
+		"reading": "Dry",
+		"level": 3
+	},
+	{
+		"text": "父",
+		"reading": "Father",
+		"level": 3
+	},
+	{
+		"text": "扌",
+		"reading": "Fingers",
+		"level": 3
+	},
+	{
+		"text": "毛",
+		"reading": "Fur",
+		"level": 3
+	},
+	{
+		"text": "img=hat",
+		"reading": "Hat",
+		"level": 3
+	},
+	{
+		"text": "心",
+		"reading": "Heart",
+		"level": 3
+	},
+	{
+		"text": "生",
+		"reading": "Life",
+		"level": 3
+	},
+	{
+		"text": "今",
+		"reading": "Now",
+		"level": 3
+	},
+	{
+		"text": "古",
+		"reading": "Old",
+		"level": 3
+	},
+	{
+		"text": "元",
+		"reading": "Origin",
+		"level": 3
+	},
+	{
+		"text": "幺",
+		"reading": "Poop",
+		"level": 3
+	},
+	{
+		"text": "匕",
+		"reading": "Spoon",
+		"level": 3
+	},
+	{
+		"text": "石",
+		"reading": "Stone",
+		"level": 3
+	},
+	{
+		"text": "用",
+		"reading": "Task",
+		"level": 3
+	},
+	{
+		"text": "巾",
+		"reading": "Towel",
+		"level": 3
+	},
+	{
+		"text": "img=triceratops",
+		"reading": "Triceratops",
+		"level": 3
+	},
+	{
+		"text": "夂",
+		"reading": "Winter",
+		"level": 3
+	},
+	{
+		"text": "也",
+		"reading": "Alligator",
+		"level": 4
+	},
+	{
+		"text": "竹",
+		"reading": "Bamboo",
+		"level": 4
+	},
+	{
+		"text": "巴",
+		"reading": "Bed",
+		"level": 4
+	},
+	{
+		"text": "img=beggar",
+		"reading": "Beggar",
+		"level": 4
+	},
+	{
+		"text": "支",
+		"reading": "Branch",
+		"level": 4
+	},
+	{
+		"text": "車",
+		"reading": "Car",
+		"level": 4
+	},
+	{
+		"text": "弋",
+		"reading": "Ceremony",
+		"level": 4
+	},
+	{
+		"text": "厂",
+		"reading": "Cliff",
+		"level": 4
+	},
+	{
+		"text": "耳",
+		"reading": "Ear",
+		"level": 4
+	},
+	{
+		"text": "气",
+		"reading": "Energy",
+		"level": 4
+	},
+	{
+		"text": "艹",
+		"reading": "Flowers",
+		"level": 4
+	},
+	{
+		"text": "足",
+		"reading": "Foot",
+		"level": 4
+	},
+	{
+		"text": "冖",
+		"reading": "Forehead",
+		"level": 4
+	},
+	{
+		"text": "img=horns",
+		"reading": "Horns",
+		"level": 4
+	},
+	{
+		"text": "虫",
+		"reading": "Insect",
+		"level": 4
+	},
+	{
+		"text": "ｲ",
+		"reading": "Leader",
+		"level": 4
+	},
+	{
+		"text": "彳",
+		"reading": "Loiter",
+		"level": 4
+	},
+	{
+		"text": "主",
+		"reading": "Master",
+		"level": 4
+	},
+	{
+		"text": "寸",
+		"reading": "Measurement",
+		"level": 4
+	},
+	{
+		"text": "不",
+		"reading": "Not",
+		"level": 4
+	},
+	{
+		"text": "兀",
+		"reading": "Pi",
+		"level": 4
+	},
+	{
+		"text": "皿",
+		"reading": "Plate",
+		"level": 4
+	},
+	{
+		"text": "赤",
+		"reading": "Red",
+		"level": 4
+	},
+	{
+		"text": "米",
+		"reading": "Rice",
+		"level": 4
+	},
+	{
+		"text": "宀",
+		"reading": "Roof",
+		"level": 4
+	},
+	{
+		"text": "士",
+		"reading": "Samurai",
+		"level": 4
+	},
+	{
+		"text": "見",
+		"reading": "See",
+		"level": 4
+	},
+	{
+		"text": "貝",
+		"reading": "Shellfish",
+		"level": 4
+	},
+	{
+		"text": "img=spikes",
+		"reading": "Spikes",
+		"level": 4
+	},
+	{
+		"text": "ネ",
+		"reading": "Spirit",
+		"level": 4
+	},
+	{
+		"text": "糸",
+		"reading": "Thread",
+		"level": 4
+	},
+	{
+		"text": "乚",
+		"reading": "Umbrella",
+		"level": 4
+	},
+	{
+		"text": "世",
+		"reading": "World",
+		"level": 4
+	},
+	{
+		"text": "斤",
+		"reading": "Axe",
+		"level": 5
+	},
+	{
+		"text": "青",
+		"reading": "Blue",
+		"level": 5
+	},
+	{
+		"text": "耂",
+		"reading": "Coffin",
+		"level": 5
+	},
+	{
+		"text": "色",
+		"reading": "Color",
+		"level": 5
+	},
+	{
+		"text": "羽",
+		"reading": "Feathers",
+		"level": 5
+	},
+	{
+		"text": "行",
+		"reading": "Go",
+		"level": 5
+	},
+	{
+		"text": "金",
+		"reading": "Gold",
+		"level": 5
+	},
+	{
+		"text": "冫",
+		"reading": "Ice",
+		"level": 5
+	},
+	{
+		"text": "乍",
+		"reading": "Key",
+		"level": 5
+	},
+	{
+		"text": "img=kick",
+		"reading": "Kick",
+		"level": 5
+	},
+	{
+		"text": "开",
+		"reading": "Lantern",
+		"level": 5
+	},
+	{
+		"text": "可",
+		"reading": "Lip Ring",
+		"level": 5
+	},
+	{
+		"text": "肉",
+		"reading": "Meat",
+		"level": 5
+	},
+	{
+		"text": "会",
+		"reading": "Meet",
+		"level": 5
+	},
+	{
+		"text": "冋",
+		"reading": "Mustache",
+		"level": 5
+	},
+	{
+		"text": "雨",
+		"reading": "Rain",
+		"level": 5
+	},
+	{
+		"text": "走",
+		"reading": "Run",
+		"level": 5
+	},
+	{
+		"text": "言",
+		"reading": "Say",
+		"level": 5
+	},
+	{
+		"text": "⻌",
+		"reading": "Scooter",
+		"level": 5
+	},
+	{
+		"text": "自",
+		"reading": "Self",
+		"level": 5
+	},
+	{
+		"text": "氵",
+		"reading": "Tsunami",
+		"level": 5
+	},
+	{
+		"text": "廾",
+		"reading": "Twenty",
+		"level": 5
+	},
+	{
+		"text": "img=viking",
+		"reading": "Viking",
+		"level": 5
+	},
+	{
+		"text": "里",
+		"reading": "Village",
+		"level": 5
+	},
+	{
+		"text": "西",
+		"reading": "West",
+		"level": 5
+	},
+	{
+		"text": "毋",
+		"reading": "Window",
+		"level": 5
+	},
+	{
+		"text": "ヨ",
+		"reading": "Wolverine",
+		"level": 5
+	},
+	{
+		"text": "ホ",
+		"reading": "Angel",
+		"level": 6
+	},
+	{
+		"text": "血",
+		"reading": "Blood",
+		"level": 6
+	},
+	{
+		"text": "灬",
+		"reading": "Boil",
+		"level": 6
+	},
+	{
+		"text": "凵",
+		"reading": "Box",
+		"level": 6
+	},
+	{
+		"text": "市",
+		"reading": "City",
+		"level": 6
+	},
+	{
+		"text": "亡",
+		"reading": "Death",
+		"level": 6
+	},
+	{
+		"text": "食",
+		"reading": "Eat",
+		"level": 6
+	},
+	{
+		"text": "占",
+		"reading": "Fortune",
+		"level": 6
+	},
+	{
+		"text": "禾",
+		"reading": "Grain",
+		"level": 6
+	},
+	{
+		"text": "未",
+		"reading": "Jet",
+		"level": 6
+	},
+	{
+		"text": "刂",
+		"reading": "Knife",
+		"level": 6
+	},
+	{
+		"text": "欠",
+		"reading": "Lack",
+		"level": 6
+	},
+	{
+		"text": "斗",
+		"reading": "Ladle",
+		"level": 6
+	},
+	{
+		"text": "L",
+		"reading": "Lion",
+		"level": 6
+	},
+	{
+		"text": "長",
+		"reading": "Long",
+		"level": 6
+	},
+	{
+		"text": "マ",
+		"reading": "Mama",
+		"level": 6
+	},
+	{
+		"text": "首",
+		"reading": "Neck",
+		"level": 6
+	},
+	{
+		"text": "羊",
+		"reading": "Sheep",
+		"level": 6
+	},
+	{
+		"text": "舌",
+		"reading": "Tongue",
+		"level": 6
+	},
+	{
+		"text": "歹",
+		"reading": "Yakuza",
+		"level": 6
+	},
+	{
+		"text": "鳥",
+		"reading": "Bird",
+		"level": 7
+	},
+	{
+		"text": "黒",
+		"reading": "Black",
+		"level": 7
+	},
+	{
+		"text": "舟",
+		"reading": "Boat",
+		"level": 7
+	},
+	{
+		"text": "周",
+		"reading": "Circumference",
+		"level": 7
+	},
+	{
+		"text": "氏",
+		"reading": "Clan",
+		"level": 7
+	},
+	{
+		"text": "魚",
+		"reading": "Fish",
+		"level": 7
+	},
+	{
+		"text": "門",
+		"reading": "Gate",
+		"level": 7
+	},
+	{
+		"text": "夫",
+		"reading": "Husband",
+		"level": 7
+	},
+	{
+		"text": "己",
+		"reading": "Oneself",
+		"level": 7
+	},
+	{
+		"text": "豕",
+		"reading": "Pig",
+		"level": 7
+	},
+	{
+		"text": "卩",
+		"reading": "Stamp",
+		"level": 7
+	},
+	{
+		"text": "几",
+		"reading": "Table",
+		"level": 7
+	},
+	{
+		"text": "孝",
+		"reading": "Teacher",
+		"level": 7
+	},
+	{
+		"text": "寺",
+		"reading": "Temple",
+		"level": 7
+	},
+	{
+		"text": "且",
+		"reading": "Top Hat",
+		"level": 7
+	},
+	{
+		"text": "勿",
+		"reading": "Wing",
+		"level": 7
+	},
+	{
+		"text": "黄",
+		"reading": "Yellow",
+		"level": 7
+	},
+	{
+		"text": "匚",
+		"reading": "Cage",
+		"level": 8
+	},
+	{
+		"text": "img=cape",
+		"reading": "Cape",
+		"level": 8
+	},
+	{
+		"text": "云",
+		"reading": "Cloud",
+		"level": 8
+	},
+	{
+		"text": "比",
+		"reading": "Compare",
+		"level": 8
+	},
+	{
+		"text": "易",
+		"reading": "Easy",
+		"level": 8
+	},
+	{
+		"text": "穴",
+		"reading": "Hole",
+		"level": 8
+	},
+	{
+		"text": "ユ",
+		"reading": "Hook",
+		"level": 8
+	},
+	{
+		"text": "馬",
+		"reading": "Horse",
+		"level": 8
+	},
+	{
+		"text": "罒",
+		"reading": "Net",
+		"level": 8
+	},
+	{
+		"text": "釆",
+		"reading": "Sickle",
+		"level": 8
+	},
+	{
+		"text": "巳",
+		"reading": "Snake",
+		"level": 8
+	},
+	{
+		"text": "合",
+		"reading": "Suit",
+		"level": 8
+	},
+	{
+		"text": "殳",
+		"reading": "Weapon",
+		"level": 8
+	},
+	{
+		"text": "反",
+		"reading": "Anti",
+		"level": 9
+	},
+	{
+		"text": "聿",
+		"reading": "Brush",
+		"level": 9
+	},
+	{
+		"text": "阝",
+		"reading": "Building",
+		"level": 9
+	},
+	{
+		"text": "img=cleat",
+		"reading": "Cleat",
+		"level": 9
+	},
+	{
+		"text": "咅",
+		"reading": "Clown",
+		"level": 9
+	},
+	{
+		"text": "疋",
+		"reading": "Coat Rack",
+		"level": 9
+	},
+	{
+		"text": "正",
+		"reading": "Correct",
+		"level": 9
+	},
+	{
+		"text": "永",
+		"reading": "Eternity",
+		"level": 9
+	},
+	{
+		"text": "img=gladiator",
+		"reading": "Gladiator",
+		"level": 9
+	},
+	{
+		"text": "重",
+		"reading": "Heavy",
+		"level": 9
+	},
+	{
+		"text": "覀",
+		"reading": "Helicopter",
+		"level": 9
+	},
+	{
+		"text": "史",
+		"reading": "History",
+		"level": 9
+	},
+	{
+		"text": "介",
+		"reading": "Jammed In",
+		"level": 9
+	},
+	{
+		"text": "台",
+		"reading": "Machine",
+		"level": 9
+	},
+	{
+		"text": "img=pope",
+		"reading": "Pope",
+		"level": 9
+	},
+	{
+		"text": "辛",
+		"reading": "Spicy",
+		"level": 9
+	},
+	{
+		"text": "img=spring",
+		"reading": "Spring",
+		"level": 9
+	},
+	{
+		"text": "img=squid",
+		"reading": "Squid",
+		"level": 9
+	},
+	{
+		"text": "癶",
+		"reading": "Tent",
+		"level": 9
+	},
+	{
+		"text": "img=yurt",
+		"reading": "Yurt",
+		"level": 9
+	},
+	{
+		"text": "酉",
+		"reading": "Alcohol",
+		"level": 10
+	},
+	{
+		"text": "豆",
+		"reading": "Beans",
+		"level": 10
+	},
+	{
+		"text": "束",
+		"reading": "Bundle",
+		"level": 10
+	},
+	{
+		"text": "img=chinese",
+		"reading": "Chinese",
+		"level": 10
+	},
+	{
+		"text": "丙",
+		"reading": "Dynamite",
+		"level": 10
+	},
+	{
+		"text": "失",
+		"reading": "Fault",
+		"level": 10
+	},
+	{
+		"text": "頁",
+		"reading": "Geoduck",
+		"level": 10
+	},
+	{
+		"text": "各",
+		"reading": "Kiss",
+		"level": 10
+	},
+	{
+		"text": "辰",
+		"reading": "Landslide",
+		"level": 10
+	},
+	{
+		"text": "曲",
+		"reading": "Music",
+		"level": 10
+	},
+	{
+		"text": "売",
+		"reading": "Sell",
+		"level": 10
+	},
+	{
+		"text": "疒",
+		"reading": "Sick",
+		"level": 10
+	},
+	{
+		"text": "乃",
+		"reading": "Stairs",
+		"level": 10
+	},
+	{
+		"text": "圣",
+		"reading": "Tombstone",
+		"level": 10
+	},
+	{
+		"text": "隹",
+		"reading": "Turkey",
+		"level": 10
+	},
+	{
+		"text": "img=bear",
+		"reading": "Bear",
+		"level": 11
+	},
+	{
+		"text": "img=blackjack",
+		"reading": "Blackjack",
+		"level": 11
+	},
+	{
+		"text": "戈",
+		"reading": "Drunkard",
+		"level": 11
+	},
+	{
+		"text": "及",
+		"reading": "Escalator",
+		"level": 11
+	},
+	{
+		"text": "少",
+		"reading": "Few",
+		"level": 11
+	},
+	{
+		"text": "申",
+		"reading": "Humble",
+		"level": 11
+	},
+	{
+		"text": "兄",
+		"reading": "Older Brother",
+		"level": 11
+	},
+	{
+		"text": "令",
+		"reading": "Orders",
+		"level": 11
+	},
+	{
+		"text": "艮",
+		"reading": "Root",
+		"level": 11
+	},
+	{
+		"text": "単",
+		"reading": "Simple",
+		"level": 11
+	},
+	{
+		"text": "皮",
+		"reading": "Skin",
+		"level": 11
+	},
+	{
+		"text": "音",
+		"reading": "Sound",
+		"level": 11
+	},
+	{
+		"text": "img=trash",
+		"reading": "Trash",
+		"level": 11
+	},
+	{
+		"text": "亜",
+		"reading": "Asia",
+		"level": 12
+	},
+	{
+		"text": "予",
+		"reading": "Beforehand",
+		"level": 12
+	},
+	{
+		"text": "業",
+		"reading": "Business",
+		"level": 12
+	},
+	{
+		"text": "其",
+		"reading": "Crab",
+		"level": 12
+	},
+	{
+		"text": "早",
+		"reading": "Early",
+		"level": 12
+	},
+	{
+		"text": "免",
+		"reading": "Excuse",
+		"level": 12
+	},
+	{
+		"text": "直",
+		"reading": "Fix",
+		"level": 12
+	},
+	{
+		"text": "示",
+		"reading": "Jackhammer",
+		"level": 12
+	},
+	{
+		"text": "求",
+		"reading": "Request",
+		"level": 12
+	},
+	{
+		"text": "者",
+		"reading": "Someone",
+		"level": 12
+	},
+	{
+		"text": "img=tofu",
+		"reading": "Tofu",
+		"level": 12
+	},
+	{
+		"text": "共",
+		"reading": "Together",
+		"level": 12
+	},
+	{
+		"text": "廴",
+		"reading": "Yoga",
+		"level": 12
+	},
+	{
+		"text": "弟",
+		"reading": "Younger Brother",
+		"level": 12
+	},
+	{
+		"text": "身",
+		"reading": "Body",
+		"level": 13
+	},
+	{
+		"text": "冊",
+		"reading": "Bookshelf",
+		"level": 13
+	},
+	{
+		"text": "央",
+		"reading": "Center",
+		"level": 13
+	},
+	{
+		"text": "丸",
+		"reading": "Circle",
+		"level": 13
+	},
+	{
+		"text": "img=creeper",
+		"reading": "Creeper",
+		"level": 13
+	},
+	{
+		"text": "東",
+		"reading": "East",
+		"level": 13
+	},
+	{
+		"text": "象",
+		"reading": "Elephant",
+		"level": 13
+	},
+	{
+		"text": "果",
+		"reading": "Fruit",
+		"level": 13
+	},
+	{
+		"text": "良",
+		"reading": "Good",
+		"level": 13
+	},
+	{
+		"text": "百",
+		"reading": "Hundred",
+		"level": 13
+	},
+	{
+		"text": "意",
+		"reading": "Idea",
+		"level": 13
+	},
+	{
+		"text": "原",
+		"reading": "Original",
+		"level": 13
+	},
+	{
+		"text": "品",
+		"reading": "Products",
+		"level": 13
+	},
+	{
+		"text": "尺",
+		"reading": "Shrimp",
+		"level": 13
+	},
+	{
+		"text": "忄",
+		"reading": "Soul",
+		"level": 13
+	},
+	{
+		"text": "坴",
+		"reading": "Womb",
+		"level": 13
+	},
+	{
+		"text": "犭",
+		"reading": "Animal",
+		"level": 14
+	},
+	{
+		"text": "img=bar",
+		"reading": "Bar",
+		"level": 14
+	},
+	{
+		"text": "才",
+		"reading": "Genius",
+		"level": 14
+	},
+	{
+		"text": "分",
+		"reading": "Part",
+		"level": 14
+	},
+	{
+		"text": "勺",
+		"reading": "Pool",
+		"level": 14
+	},
+	{
+		"text": "公",
+		"reading": "Public",
+		"level": 14
+	},
+	{
+		"text": "井",
+		"reading": "Well",
+		"level": 14
+	},
+	{
+		"text": "img=grass",
+		"reading": "Grass",
+		"level": 15
+	},
+	{
+		"text": "丈",
+		"reading": "Height",
+		"level": 15
+	},
+	{
+		"text": "男",
+		"reading": "Man",
+		"level": 15
+	},
+	{
+		"text": "句",
+		"reading": "Paragraph",
+		"level": 15
+	},
+	{
+		"text": "去",
+		"reading": "Past",
+		"level": 15
+	},
+	{
+		"text": "巩",
+		"reading": "Saw",
+		"level": 15
+	},
+	{
+		"text": "畐",
+		"reading": "Scarecrow",
+		"level": 15
+	},
+	{
+		"text": "歩",
+		"reading": "Walk",
+		"level": 15
+	},
+	{
+		"text": "付",
+		"reading": "Attach",
+		"level": 16
+	},
+	{
+		"text": "壴",
+		"reading": "Drum",
+		"level": 16
+	},
+	{
+		"text": "面",
+		"reading": "Face",
+		"level": 16
+	},
+	{
+		"text": "谷",
+		"reading": "Valley",
+		"level": 16
+	},
+	{
+		"text": "img=zombie",
+		"reading": "Zombie",
+		"level": 16
+	},
+	{
+		"text": "楽",
+		"reading": "Comfort",
+		"level": 17
+	},
+	{
+		"text": "非",
+		"reading": "Criminal",
+		"level": 17
+	},
+	{
+		"text": "祭",
+		"reading": "Festival",
+		"level": 17
+	},
+	{
+		"text": "吉",
+		"reading": "Good Luck",
+		"level": 17
+	},
+	{
+		"text": "兑",
+		"reading": "Guard",
+		"level": 17
+	},
+	{
+		"text": "無",
+		"reading": "Nothing",
+		"level": 17
+	},
+	{
+		"text": "苟",
+		"reading": "Poem",
+		"level": 17
+	},
+	{
+		"text": "虍",
+		"reading": "Tiger",
+		"level": 17
+	},
+	{
+		"text": "争",
+		"reading": "Conflict",
+		"level": 18
+	},
+	{
+		"text": "尭",
+		"reading": "Gambler",
+		"level": 18
+	},
+	{
+		"text": "幸",
+		"reading": "Happiness",
+		"level": 18
+	},
+	{
+		"text": "昔",
+		"reading": "Long Ago",
+		"level": 18
+	},
+	{
+		"text": "曽",
+		"reading": "Mask",
+		"level": 18
+	},
+	{
+		"text": "午",
+		"reading": "Noon",
+		"level": 18
+	},
+	{
+		"text": "先",
+		"reading": "Previous",
+		"level": 18
+	},
+	{
+		"text": "凶",
+		"reading": "Treasure Chest",
+		"level": 18
+	},
+	{
+		"text": "成",
+		"reading": "Become",
+		"level": 19
+	},
+	{
+		"text": "复",
+		"reading": "Black Hole",
+		"level": 19
+	},
+	{
+		"text": "司",
+		"reading": "Director",
+		"level": 19
+	},
+	{
+		"text": "我",
+		"reading": "Ego",
+		"level": 19
+	},
+	{
+		"text": "由",
+		"reading": "Reason",
+		"level": 19
+	},
+	{
+		"text": "右",
+		"reading": "Right",
+		"level": 19
+	},
+	{
+		"text": "img=explosion",
+		"reading": "Explosion",
+		"level": 20
+	},
+	{
+		"text": "巛",
+		"reading": "Flood",
+		"level": 20
+	},
+	{
+		"text": "飛",
+		"reading": "Fly",
+		"level": 20
+	},
+	{
+		"text": "至",
+		"reading": "Mole",
+		"level": 20
+	},
+	{
+		"text": "兼",
+		"reading": "Mona Lisa",
+		"level": 20
+	},
+	{
+		"text": "義",
+		"reading": "Righteousness",
+		"level": 20
+	},
+	{
+		"text": "角",
+		"reading": "Angle",
+		"level": 21
+	},
+	{
+		"text": "刃",
+		"reading": "Blade",
+		"level": 21
+	},
+	{
+		"text": "半",
+		"reading": "Half",
+		"level": 21
+	},
+	{
+		"text": "啇",
+		"reading": "Mohawk",
+		"level": 21
+	},
+	{
+		"text": "次",
+		"reading": "Next",
+		"level": 21
+	},
+	{
+		"text": "番",
+		"reading": "Number",
+		"level": 21
+	},
+	{
+		"text": "平",
+		"reading": "Peace",
+		"level": 21
+	},
+	{
+		"text": "斉",
+		"reading": "Simultaneous",
+		"level": 21
+	},
+	{
+		"text": "矛",
+		"reading": "Spear",
+		"level": 21
+	},
+	{
+		"text": "能",
+		"reading": "Ability",
+		"level": 22
+	},
+	{
+		"text": "充",
+		"reading": "Allocate",
+		"level": 22
+	},
+	{
+		"text": "呂",
+		"reading": "Bathtub",
+		"level": 22
+	},
+	{
+		"text": "安",
+		"reading": "Cheap",
+		"level": 22
+	},
+	{
+		"text": "弗",
+		"reading": "Dollar",
+		"level": 22
+	},
+	{
+		"text": "爰",
+		"reading": "Football",
+		"level": 22
+	},
+	{
+		"text": "丬",
+		"reading": "Icicle",
+		"level": 22
+	},
+	{
+		"text": "衣",
+		"reading": "Clothes",
+		"level": 23
+	},
+	{
+		"text": "鬼",
+		"reading": "Demon",
+		"level": 23
+	},
+	{
+		"text": "革",
+		"reading": "Leather",
+		"level": 23
+	},
+	{
+		"text": "img=morning",
+		"reading": "Morning",
+		"level": 23
+	},
+	{
+		"text": "亭",
+		"reading": "Restaurant",
+		"level": 23
+	},
+	{
+		"text": "道",
+		"reading": "Road",
+		"level": 23
+	},
+	{
+		"text": "丩",
+		"reading": "Vines",
+		"level": 23
+	},
+	{
+		"text": "受",
+		"reading": "Accept",
+		"level": 24
+	},
+	{
+		"text": "制",
+		"reading": "Control",
+		"level": 24
+	},
+	{
+		"text": "旦",
+		"reading": "Dawn",
+		"level": 24
+	},
+	{
+		"text": "img=death star",
+		"reading": "Death Star",
+		"level": 24
+	},
+	{
+		"text": "客",
+		"reading": "Guest",
+		"level": 24
+	},
+	{
+		"text": "韋",
+		"reading": "Korea",
+		"level": 24
+	},
+	{
+		"text": "然",
+		"reading": "Nature",
+		"level": 24
+	},
+	{
+		"text": "両",
+		"reading": "Both",
+		"level": 25
+	},
+	{
+		"text": "京",
+		"reading": "Capital",
+		"level": 25
+	},
+	{
+		"text": "友",
+		"reading": "Friend",
+		"level": 25
+	},
+	{
+		"text": "莫",
+		"reading": "Greenhouse",
+		"level": 25
+	},
+	{
+		"text": "冓",
+		"reading": "Lifeguard",
+		"level": 25
+	},
+	{
+		"text": "禹",
+		"reading": "Mantis",
+		"level": 25
+	},
+	{
+		"text": "交",
+		"reading": "Mix",
+		"level": 25
+	},
+	{
+		"text": "甫",
+		"reading": "Wedding",
+		"level": 25
+	},
+	{
+		"text": "告",
+		"reading": "Announce",
+		"level": 26
+	},
+	{
+		"text": "章",
+		"reading": "Chapter",
+		"level": 26
+	},
+	{
+		"text": "img=comb",
+		"reading": "Comb",
+		"level": 26
+	},
+	{
+		"text": "万",
+		"reading": "Ten Thousand",
+		"level": 26
+	},
+	{
+		"text": "倉",
+		"reading": "Warehouse",
+		"level": 26
+	},
+	{
+		"text": "召",
+		"reading": "Call",
+		"level": 27
+	},
+	{
+		"text": "化",
+		"reading": "Change",
+		"level": 27
+	},
+	{
+		"text": "出",
+		"reading": "Exit",
+		"level": 27
+	},
+	{
+		"text": "農",
+		"reading": "Farming",
+		"level": 27
+	},
+	{
+		"text": "民",
+		"reading": "Peoples",
+		"level": 27
+	},
+	{
+		"text": "而",
+		"reading": "Rake",
+		"level": 27
+	},
+	{
+		"text": "代",
+		"reading": "Substitute",
+		"level": 27
+	},
+	{
+		"text": "余",
+		"reading": "Surplus",
+		"level": 27
+	},
+	{
+		"text": "屯",
+		"reading": "Barracks",
+		"level": 28
+	},
+	{
+		"text": "前",
+		"reading": "Before",
+		"level": 28
+	},
+	{
+		"text": "巨",
+		"reading": "Giant",
+		"level": 28
+	},
+	{
+		"text": "麗",
+		"reading": "Lovely",
+		"level": 28
+	},
+	{
+		"text": "奇",
+		"reading": "Odd",
+		"level": 28
+	},
+	{
+		"text": "専",
+		"reading": "Specialty",
+		"level": 28
+	},
+	{
+		"text": "上",
+		"reading": "Above",
+		"level": 29
+	},
+	{
+		"text": "責",
+		"reading": "Blame",
+		"level": 29
+	},
+	{
+		"text": "尞",
+		"reading": "Charcoal",
+		"level": 29
+	},
+	{
+		"text": "区",
+		"reading": "District",
+		"level": 29
+	},
+	{
+		"text": "乙",
+		"reading": "Nose",
+		"level": 29
+	},
+	{
+		"text": "臣",
+		"reading": "Servant",
+		"level": 29
+	},
+	{
+		"text": "img=hills",
+		"reading": "Hills",
+		"level": 30
+	},
+	{
+		"text": "系",
+		"reading": "Lineage",
+		"level": 30
+	},
+	{
+		"text": "北",
+		"reading": "North",
+		"level": 30
+	},
+	{
+		"text": "片",
+		"reading": "One Sided",
+		"level": 30
+	},
+	{
+		"text": "監",
+		"reading": "Oversee",
+		"level": 30
+	},
+	{
+		"text": "冘",
+		"reading": "Pirate",
+		"level": 30
+	},
+	{
+		"text": "甲",
+		"reading": "Turtle Shell",
+		"level": 30
+	},
+	{
+		"text": "鬲",
+		"reading": "Bully",
+		"level": 31
+	},
+	{
+		"text": "牙",
+		"reading": "Fang",
+		"level": 31
+	},
+	{
+		"text": "郎",
+		"reading": "Guy",
+		"level": 31
+	},
+	{
+		"text": "扁",
+		"reading": "Library",
+		"level": 31
+	},
+	{
+		"text": "並",
+		"reading": "Line Up",
+		"level": 31
+	},
+	{
+		"text": "离",
+		"reading": "Rocket",
+		"level": 31
+	},
+	{
+		"text": "卬",
+		"reading": "Cat Pirate",
+		"level": 32
+	},
+	{
+		"text": "必",
+		"reading": "Certain",
+		"level": 32
+	},
+	{
+		"text": "舎",
+		"reading": "Cottage",
+		"level": 32
+	},
+	{
+		"text": "img=elf",
+		"reading": "Elf",
+		"level": 32
+	},
+	{
+		"text": "夜",
+		"reading": "Night",
+		"level": 32
+	},
+	{
+		"text": "同",
+		"reading": "Same",
+		"level": 32
+	},
+	{
+		"text": "夋",
+		"reading": "Spider",
+		"level": 32
+	},
+	{
+		"text": "img=coral",
+		"reading": "Coral",
+		"level": 33
+	},
+	{
+		"text": "内",
+		"reading": "Inside",
+		"level": 33
+	},
+	{
+		"text": "間",
+		"reading": "Interval",
+		"level": 33
+	},
+	{
+		"text": "享",
+		"reading": "Sock",
+		"level": 33
+	},
+	{
+		"text": "蔵",
+		"reading": "Storehouse",
+		"level": 33
+	},
+	{
+		"text": "喿",
+		"reading": "Syrup",
+		"level": 33
+	},
+	{
+		"text": "広",
+		"reading": "Wide",
+		"level": 33
+	},
+	{
+		"text": "堇",
+		"reading": "Boot",
+		"level": 34
+	},
+	{
+		"text": "呉",
+		"reading": "Catapult",
+		"level": 34
+	},
+	{
+		"text": "爪",
+		"reading": "Claw",
+		"level": 34
+	},
+	{
+		"text": "員",
+		"reading": "Member",
+		"level": 34
+	},
+	{
+		"text": "亥",
+		"reading": "Slice",
+		"level": 34
+	},
+	{
+		"text": "帯",
+		"reading": "Belt",
+		"level": 35
+	},
+	{
+		"text": "将",
+		"reading": "Commander",
+		"level": 35
+	},
+	{
+		"text": "為",
+		"reading": "Sake",
+		"level": 35
+	},
+	{
+		"text": "彑",
+		"reading": "Shuriken",
+		"level": 35
+	},
+	{
+		"text": "亀",
+		"reading": "Turtle",
+		"level": 35
+	},
+	{
+		"text": "明",
+		"reading": "Bright",
+		"level": 36
+	},
+	{
+		"text": "舛",
+		"reading": "Dance",
+		"level": 36
+	},
+	{
+		"text": "発",
+		"reading": "Departure",
+		"level": 36
+	},
+	{
+		"text": "南",
+		"reading": "South",
+		"level": 36
+	},
+	{
+		"text": "甘",
+		"reading": "Sweet",
+		"level": 36
+	},
+	{
+		"text": "貴",
+		"reading": "Valuable",
+		"level": 36
+	},
+	{
+		"text": "兆",
+		"reading": "Omen",
+		"level": 37
+	},
+	{
+		"text": "賞",
+		"reading": "Prize",
+		"level": 37
+	},
+	{
+		"text": "串",
+		"reading": "Skewer",
+		"level": 37
+	},
+	{
+		"text": "暴",
+		"reading": "Violence",
+		"level": 37
+	},
+	{
+		"text": "包",
+		"reading": "Wrap",
+		"level": 37
+	},
+	{
+		"text": "有",
+		"reading": "Have",
+		"level": 38
+	},
+	{
+		"text": "辟",
+		"reading": "Hot Pepper",
+		"level": 38
+	},
+	{
+		"text": "県",
+		"reading": "Prefecture",
+		"level": 38
+	},
+	{
+		"text": "空",
+		"reading": "Sky",
+		"level": 38
+	},
+	{
+		"text": "思",
+		"reading": "Think",
+		"level": 38
+	},
+	{
+		"text": "歯",
+		"reading": "Tooth",
+		"level": 38
+	},
+	{
+		"text": "君",
+		"reading": "Buddy",
+		"level": 39
+	},
+	{
+		"text": "旧",
+		"reading": "Former",
+		"level": 39
+	},
+	{
+		"text": "岡",
+		"reading": "Hill",
+		"level": 39
+	},
+	{
+		"text": "㐮",
+		"reading": "Nurse",
+		"level": 39
+	},
+	{
+		"text": "真",
+		"reading": "Reality",
+		"level": 39
+	},
+	{
+		"text": "巻",
+		"reading": "Scroll",
+		"level": 39
+	},
+	{
+		"text": "三",
+		"reading": "Three",
+		"level": 39
+	},
+	{
+		"text": "雇",
+		"reading": "Employ",
+		"level": 40
+	},
+	{
+		"text": "毎",
+		"reading": "Every",
+		"level": 40
+	},
+	{
+		"text": "保",
+		"reading": "Preserve",
+		"level": 40
+	},
+	{
+		"text": "喜",
+		"reading": "Rejoice",
+		"level": 40
+	},
+	{
+		"text": "麦",
+		"reading": "Wheat",
+		"level": 40
+	},
+	{
+		"text": "img=cactus",
+		"reading": "Cactus",
+		"level": 41
+	},
+	{
+		"text": "宣",
+		"reading": "Proclaim",
+		"level": 41
+	},
+	{
+		"text": "華",
+		"reading": "Showy",
+		"level": 41
+	},
+	{
+		"text": "夆",
+		"reading": "Signpost",
+		"level": 41
+	},
+	{
+		"text": "妻",
+		"reading": "Wife",
+		"level": 41
+	},
+	{
+		"text": "骨",
+		"reading": "Bone",
+		"level": 42
+	},
+	{
+		"text": "瓜",
+		"reading": "Melon",
+		"level": 42
+	},
+	{
+		"text": "img=satellite",
+		"reading": "Satellite",
+		"level": 42
+	},
+	{
+		"text": "屋",
+		"reading": "Shop",
+		"level": 42
+	},
+	{
+		"text": "豸",
+		"reading": "Badger",
+		"level": 43
+	},
+	{
+		"text": "龍",
+		"reading": "Imperial",
+		"level": 43
+	},
+	{
+		"text": "耒",
+		"reading": "Plow",
+		"level": 43
+	},
+	{
+		"text": "缶",
+		"reading": "Can",
+		"level": 44
+	},
+	{
+		"text": "竜",
+		"reading": "Dragon",
+		"level": 44
+	},
+	{
+		"text": "風",
+		"reading": "Wind",
+		"level": 44
+	},
+	{
+		"text": "更",
+		"reading": "Again",
+		"level": 45
+	},
+	{
+		"text": "家",
+		"reading": "House",
+		"level": 45
+	},
+	{
+		"text": "守",
+		"reading": "Protect",
+		"level": 45
+	},
+	{
+		"text": "太",
+		"reading": "Fat",
+		"level": 46
+	},
+	{
+		"text": "恵",
+		"reading": "Favor",
+		"level": 46
+	},
+	{
+		"text": "敝",
+		"reading": "Penguin",
+		"level": 47
+	},
+	{
+		"text": "波",
+		"reading": "Wave",
+		"level": 47
+	},
+	{
+		"text": "容",
+		"reading": "Form",
+		"level": 48
+	},
+	{
+		"text": "玄",
+		"reading": "Mysterious",
+		"level": 48
+	},
+	{
+		"text": "光",
+		"reading": "Sunlight",
+		"level": 48
+	},
+	{
+		"text": "甚",
+		"reading": "Crab Trap",
+		"level": 49
+	},
+	{
+		"text": "回",
+		"reading": "Times",
+		"level": 49
+	},
+	{
+		"text": "荒",
+		"reading": "Wild",
+		"level": 49
+	},
+	{
+		"text": "名",
+		"reading": "Name",
+		"level": 50
+	},
+	{
+		"text": "img=psychopath",
+		"reading": "Psychopath",
+		"level": 50
+	},
+	{
+		"text": "禺",
+		"reading": "Splinter",
+		"level": 50
+	},
+	{
+		"text": "胃",
+		"reading": "Stomach",
+		"level": 51
+	},
+	{
+		"text": "夌",
+		"reading": "Frostbite",
+		"level": 52
+	},
+	{
+		"text": "高",
+		"reading": "Tall",
+		"level": 53
+	},
+	{
+		"text": "疑",
+		"reading": "Doubt",
+		"level": 55
+	},
+	{
+		"text": "感",
+		"reading": "Feeling",
+		"level": 55
+	},
+	{
+		"text": "凹",
+		"reading": "Concave",
+		"level": 57
+	},
+	{
+		"text": "凸",
+		"reading": "Convex",
+		"level": 57
+	},
+	{
+		"text": "下",
+		"reading": "Below",
+		"level": 59
+	},
+	{
+		"text": "勇",
+		"reading": "Courage",
+		"level": 60
+	}
+]

@@ -1,0 +1,141 @@
+[gd_scene load_steps=10 format=3 uid="uid://cmx1cqxaed2dc"]
+
+[ext_resource type="StyleBox" uid="uid://dmouv1pq3q8ar" path="res://Styles/General/StyleBackgroundFlat.tres" id="2_35uwq"]
+[ext_resource type="Script" path="res://Scripts/InfoPopup.gd" id="2_apbqd"]
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="3_rcli1"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="9_xj0mo"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="10_cpt8t"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="11_xhgrd"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="12_pgqei"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="13_tpf02"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dxb5r"]
+
+[node name="InfoScreen" type="Control" node_paths=PackedStringArray("title_box", "scroll", "vbox", "prev", "next")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_apbqd")
+title_box = NodePath("Background/MarginContainer/VBoxContainer/Title")
+scroll = NodePath("Background/MarginContainer/VBoxContainer/ScrollContainer")
+vbox = NodePath("Background/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer")
+prev = NodePath("Background/MarginContainer/VBoxContainer/Controls/Prev")
+next = NodePath("Background/MarginContainer/VBoxContainer/Controls/Next")
+
+[node name="Background" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = ExtResource("2_35uwq")
+
+[node name="MarginContainer" type="MarginContainer" parent="Background"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="HBoxContainer" parent="Background/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="HSeparator3" type="HSeparator" parent="Background/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_dxb5r")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Background/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+follow_focus = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSeparator4" type="HSeparator" parent="Background/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_dxb5r")
+
+[node name="Controls" type="HBoxContainer" parent="Background/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="VSeparator" type="VSeparator" parent="Background/MarginContainer/VBoxContainer/Controls"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = ExtResource("3_rcli1")
+
+[node name="Prev" type="Button" parent="Background/MarginContainer/VBoxContainer/Controls"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("9_xj0mo")
+theme_override_styles/hover = ExtResource("10_cpt8t")
+theme_override_styles/pressed = ExtResource("11_xhgrd")
+theme_override_styles/disabled = ExtResource("12_pgqei")
+theme_override_styles/focus = ExtResource("13_tpf02")
+text = "Prev"
+
+[node name="Exit" type="Button" parent="Background/MarginContainer/VBoxContainer/Controls"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("9_xj0mo")
+theme_override_styles/hover = ExtResource("10_cpt8t")
+theme_override_styles/pressed = ExtResource("11_xhgrd")
+theme_override_styles/disabled = ExtResource("12_pgqei")
+theme_override_styles/focus = ExtResource("13_tpf02")
+text = "Back"
+
+[node name="Next" type="Button" parent="Background/MarginContainer/VBoxContainer/Controls"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("9_xj0mo")
+theme_override_styles/hover = ExtResource("10_cpt8t")
+theme_override_styles/pressed = ExtResource("11_xhgrd")
+theme_override_styles/disabled = ExtResource("12_pgqei")
+theme_override_styles/focus = ExtResource("13_tpf02")
+text = "Next"
+
+[node name="Quiz" type="Button" parent="Background/MarginContainer/VBoxContainer/Controls"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("9_xj0mo")
+theme_override_styles/hover = ExtResource("10_cpt8t")
+theme_override_styles/pressed = ExtResource("11_xhgrd")
+theme_override_styles/disabled = ExtResource("12_pgqei")
+theme_override_styles/focus = ExtResource("13_tpf02")
+text = "Quiz"
+
+[node name="VSeparator2" type="VSeparator" parent="Background/MarginContainer/VBoxContainer/Controls"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = ExtResource("3_rcli1")
+
+[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/Controls/Prev" to="." method="_on_prev_pressed"]
+[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/Controls/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/Controls/Next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/Controls/Quiz" to="." method="_on_quiz_pressed"]

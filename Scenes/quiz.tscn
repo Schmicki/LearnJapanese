@@ -1,0 +1,107 @@
+[gd_scene load_steps=9 format=3 uid="uid://h18bcsmrx24j"]
+
+[ext_resource type="StyleBox" uid="uid://dmouv1pq3q8ar" path="res://Styles/General/StyleBackgroundFlat.tres" id="1_a4jxj"]
+[ext_resource type="Script" path="res://Scripts/Quiz.gd" id="1_lystm"]
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="4_4oyav"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="5_ihwpf"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="6_xf0yx"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="7_cdd2m"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="8_bgag8"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="9_efsk7"]
+
+[node name="Quiz" type="Control" node_paths=PackedStringArray("scroll", "vbox", "prev", "next")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lystm")
+scroll = NodePath("Border/VBox/Scroll")
+vbox = NodePath("Border/VBox/Scroll/VBox")
+prev = NodePath("Border/VBox/Buttons/Prev")
+next = NodePath("Border/VBox/Buttons/Next")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("1_a4jxj")
+
+[node name="Border" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="Border"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="Scroll" type="ScrollContainer" parent="Border/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBox" type="VBoxContainer" parent="Border/VBox/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSeparator2" type="HSeparator" parent="Border/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("4_4oyav")
+
+[node name="Buttons" type="HBoxContainer" parent="Border/VBox"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 10
+
+[node name="Prev" type="Button" parent="Border/VBox/Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_ihwpf")
+theme_override_styles/hover = ExtResource("6_xf0yx")
+theme_override_styles/pressed = ExtResource("7_cdd2m")
+theme_override_styles/disabled = ExtResource("8_bgag8")
+theme_override_styles/focus = ExtResource("9_efsk7")
+text = "Previous"
+
+[node name="Back" type="Button" parent="Border/VBox/Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("5_ihwpf")
+theme_override_styles/hover = ExtResource("6_xf0yx")
+theme_override_styles/pressed = ExtResource("7_cdd2m")
+theme_override_styles/disabled = ExtResource("8_bgag8")
+theme_override_styles/focus = ExtResource("9_efsk7")
+text = "Back"
+
+[node name="Next" type="Button" parent="Border/VBox/Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("5_ihwpf")
+theme_override_styles/hover = ExtResource("6_xf0yx")
+theme_override_styles/pressed = ExtResource("7_cdd2m")
+theme_override_styles/disabled = ExtResource("8_bgag8")
+theme_override_styles/focus = ExtResource("9_efsk7")
+text = "Next"
+
+[connection signal="pressed" from="Border/VBox/Buttons/Prev" to="." method="_on_prev_pressed"]
+[connection signal="pressed" from="Border/VBox/Buttons/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Border/VBox/Buttons/Next" to="." method="_on_next_pressed"]

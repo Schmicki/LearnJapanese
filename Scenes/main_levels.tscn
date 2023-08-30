@@ -1,0 +1,80 @@
+[gd_scene load_steps=8 format=3 uid="uid://klrhjl3efgs"]
+
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="1_4fgvr"]
+[ext_resource type="Script" path="res://Scripts/LevelUI.gd" id="1_at185"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="2_keem8"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="3_thj8c"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="4_njlsg"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="5_jggit"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="6_mxs5l"]
+
+[node name="Levels" type="VBoxContainer" node_paths=PackedStringArray("scroll", "vbox", "prev", "next")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+script = ExtResource("1_at185")
+scroll = NodePath("ScrollContainer")
+vbox = NodePath("ScrollContainer/VBoxContainer")
+prev = NodePath("Buttons/Prev")
+next = NodePath("Buttons/Next")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="HSeparator2" type="HSeparator" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("1_4fgvr")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 10
+
+[node name="Prev" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_keem8")
+theme_override_styles/hover = ExtResource("3_thj8c")
+theme_override_styles/pressed = ExtResource("4_njlsg")
+theme_override_styles/disabled = ExtResource("5_jggit")
+theme_override_styles/focus = ExtResource("6_mxs5l")
+text = "Previous"
+
+[node name="Back" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("2_keem8")
+theme_override_styles/hover = ExtResource("3_thj8c")
+theme_override_styles/pressed = ExtResource("4_njlsg")
+theme_override_styles/disabled = ExtResource("5_jggit")
+theme_override_styles/focus = ExtResource("6_mxs5l")
+text = "Back"
+
+[node name="Next" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("2_keem8")
+theme_override_styles/hover = ExtResource("3_thj8c")
+theme_override_styles/pressed = ExtResource("4_njlsg")
+theme_override_styles/disabled = ExtResource("5_jggit")
+theme_override_styles/focus = ExtResource("6_mxs5l")
+text = "Next"
+
+[connection signal="pressed" from="Buttons/Prev" to="." method="_on_prev_pressed"]
+[connection signal="pressed" from="Buttons/Next" to="." method="_on_next_pressed"]

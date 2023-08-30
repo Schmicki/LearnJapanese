@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpw6rewn67on7"]
+
+[ext_resource type="StyleBox" uid="uid://c3lgtt4pnssmk" path="res://Styles/Lime/StyleLimeNormal.tres" id="1_48gqo"]
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="1_e4csl"]
+[ext_resource type="Script" path="res://Scripts/QuizCard.gd" id="2_61qys"]
+
+[node name="SimpleQuizCard" type="PanelContainer"]
+custom_minimum_size = Vector2(100, 0)
+size_flags_horizontal = 0
+theme_override_styles/panel = ExtResource("1_e4csl")
+script = ExtResource("2_61qys")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 2
+theme_override_styles/panel = ExtResource("1_48gqo")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 4

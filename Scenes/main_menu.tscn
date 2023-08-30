@@ -1,0 +1,780 @@
+[gd_scene load_steps=12 format=3 uid="uid://bve6tj7fvmig3"]
+
+[ext_resource type="StyleBox" uid="uid://dfu0xovnd4pen" path="res://Styles/Quiz/StyleQuizTextInputDefault.tres" id="1_8vhjw"]
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="2_7kcs1"]
+[ext_resource type="StyleBox" uid="uid://dyqfkrl0atyxg" path="res://Styles/Quiz/StyleQuizTextInputFocus.tres" id="2_51a4o"]
+[ext_resource type="StyleBox" uid="uid://be5xt6wodig7b" path="res://Styles/Quiz/StyleQuizTextInputReadOnly.tres" id="3_7hu7i"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="5_dtrwr"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="6_i108f"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="7_v2xou"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="8_7r0dp"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="9_8tye5"]
+[ext_resource type="StyleBox" uid="uid://cv2pxrq3h3dpf" path="res://Styles/Lime/StyleLimePressed.tres" id="10_i56or"]
+[ext_resource type="StyleBox" uid="uid://ddktblljreor7" path="res://Styles/Orange/StyleOrangePressed.tres" id="11_ka8er"]
+
+[node name="Menu" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="SearchBar" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="LineEdit" type="LineEdit" parent="SearchBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = ExtResource("1_8vhjw")
+theme_override_styles/focus = ExtResource("2_51a4o")
+theme_override_styles/read_only = ExtResource("3_7hu7i")
+placeholder_text = "Search for Hiragana, Katakana, Radicals, Kanji and Vocabulary"
+
+[node name="HSeparator" type="HSeparator" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_constants/separation = 10
+
+[node name="VBox" type="VBoxContainer" parent="HBox"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Hiragana" type="PanelContainer" parent="HBox/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox/Hiragana"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox/Hiragana"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Hiragana"
+
+[node name="Description" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "The first step to Japanese"
+
+[node name="HSeparator" type="HSeparator" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="Panel" type="PanelContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_styles/panel = ExtResource("10_i56or")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="A" type="VBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "あ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "い"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "う"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "え"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "お"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "a"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "i"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "u"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "e"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "o"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sep" type="HSeparator" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 10
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="Ka" type="VBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "か"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "き"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "く"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "け"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "こ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ka"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ki"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ku"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ke"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Hiragana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ko"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Katakana" type="PanelContainer" parent="HBox/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox/Katakana"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox/Katakana"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox/Katakana/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Katakana"
+
+[node name="Description" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "More of the same"
+
+[node name="HSeparator" type="HSeparator" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="Panel" type="PanelContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_styles/panel = ExtResource("11_ka8er")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="A" type="VBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "ア"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "イ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "ウ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "エ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "オ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "a"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "i"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "u"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "e"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/A/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "o"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sep" type="HSeparator" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 10
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="Ka" type="VBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "カ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "キ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "ク"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "ケ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 32
+text = "コ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ka"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ki"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ku"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ke"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="HBox/VBox/Katakana/MarginContainer/VBoxContainer/Panel/VBox/Ka/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ko"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBox2" type="VBoxContainer" parent="HBox"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Radicals" type="PanelContainer" parent="HBox/VBox2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox2/Radicals"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox2/Radicals"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox2/Radicals/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox2/Radicals/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox2/Radicals/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Radicals"
+
+[node name="Description" type="Label" parent="HBox/VBox2/Radicals/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Kanji building blocks"
+
+[node name="Kanji" type="PanelContainer" parent="HBox/VBox2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox2/Kanji"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox2/Kanji"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox2/Kanji/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox2/Kanji/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox2/Kanji/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Kanji"
+
+[node name="Description" type="Label" parent="HBox/VBox2/Kanji/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Getting Closer"
+
+[node name="Vocabulary" type="PanelContainer" parent="HBox/VBox2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox2/Vocabulary"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox2/Vocabulary"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox2/Vocabulary/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox2/Vocabulary/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox2/Vocabulary/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Vocabulary"
+
+[node name="Description" type="Label" parent="HBox/VBox2/Vocabulary/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Please leave me alone"
+
+[node name="Grammar" type="PanelContainer" parent="HBox/VBox2"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox2/Grammar"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox2/Grammar"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox2/Grammar/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox2/Grammar/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox2/Grammar/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Grammar"
+
+[node name="Description" type="Label" parent="HBox/VBox2/Grammar/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "The first step to Japanese"
+
+[node name="Quiz" type="PanelContainer" parent="HBox/VBox2"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("2_7kcs1")
+
+[node name="Button" type="Button" parent="HBox/VBox2/Quiz"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBox/VBox2/Quiz"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBox/VBox2/Quiz/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBox/VBox2/Quiz/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="HBox/VBox2/Quiz/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Quiz"
+
+[node name="Description" type="Label" parent="HBox/VBox2/Quiz/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "The first step to Japanese"
+
+[node name="HSeparator2" type="HSeparator" parent="."]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("2_7kcs1")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 10
+
+[node name="Settings" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+text = "Help"
+
+[node name="Quit" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_dtrwr")
+theme_override_styles/hover = ExtResource("6_i108f")
+theme_override_styles/pressed = ExtResource("7_v2xou")
+theme_override_styles/disabled = ExtResource("8_7r0dp")
+theme_override_styles/focus = ExtResource("9_8tye5")
+text = "Quit"

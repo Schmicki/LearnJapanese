@@ -1,0 +1,110 @@
+[gd_scene load_steps=11 format=3 uid="uid://dspue4rmvfgls"]
+
+[ext_resource type="StyleBox" uid="uid://dfu0xovnd4pen" path="res://Styles/Quiz/StyleQuizTextInputDefault.tres" id="1_1b4pg"]
+[ext_resource type="Script" path="res://Scripts/SearchUI.gd" id="1_84cwk"]
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="1_se6ya"]
+[ext_resource type="StyleBox" uid="uid://dyqfkrl0atyxg" path="res://Styles/Quiz/StyleQuizTextInputFocus.tres" id="2_2q6bs"]
+[ext_resource type="StyleBox" uid="uid://be5xt6wodig7b" path="res://Styles/Quiz/StyleQuizTextInputReadOnly.tres" id="3_1qcux"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="5_k4hrb"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="6_osnh8"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="7_ryjf0"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="8_lf4f6"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="9_h7nua"]
+
+[node name="Search" type="VBoxContainer" node_paths=PackedStringArray("scroll", "vbox", "prev", "next")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+script = ExtResource("1_84cwk")
+scroll = NodePath("ScrollContainer")
+vbox = NodePath("ScrollContainer/HFlowContainer")
+prev = NodePath("Buttons/Prev")
+next = NodePath("Buttons/Next")
+
+[node name="SearchBar" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="LineEdit" type="LineEdit" parent="SearchBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = ExtResource("1_1b4pg")
+theme_override_styles/focus = ExtResource("2_2q6bs")
+theme_override_styles/read_only = ExtResource("3_1qcux")
+placeholder_text = "Search for Hiragana, Katakana, Radicals, Kanji and Vocabulary"
+caret_blink = true
+
+[node name="Button" type="Button" parent="SearchBar"]
+visible = false
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+text = "Search"
+
+[node name="HSeparator" type="HSeparator" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("1_se6ya")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+follow_focus = true
+
+[node name="HFlowContainer" type="HFlowContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("1_se6ya")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 10
+
+[node name="Prev" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_k4hrb")
+theme_override_styles/hover = ExtResource("6_osnh8")
+theme_override_styles/pressed = ExtResource("7_ryjf0")
+theme_override_styles/disabled = ExtResource("8_lf4f6")
+theme_override_styles/focus = ExtResource("9_h7nua")
+text = "Previous"
+
+[node name="Back" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_k4hrb")
+theme_override_styles/hover = ExtResource("6_osnh8")
+theme_override_styles/pressed = ExtResource("7_ryjf0")
+theme_override_styles/disabled = ExtResource("8_lf4f6")
+theme_override_styles/focus = ExtResource("9_h7nua")
+text = "Back"
+
+[node name="Next" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_styles/normal = ExtResource("5_k4hrb")
+theme_override_styles/hover = ExtResource("6_osnh8")
+theme_override_styles/pressed = ExtResource("7_ryjf0")
+theme_override_styles/disabled = ExtResource("8_lf4f6")
+theme_override_styles/focus = ExtResource("9_h7nua")
+text = "Next"
+
+[connection signal="pressed" from="Buttons/Prev" to="." method="_on_prev_pressed"]
+[connection signal="pressed" from="Buttons/Next" to="." method="_on_next_pressed"]

@@ -1,0 +1,537 @@
+[
+    {
+        "text": "あ",
+        "reading": "a",
+        "level": 1
+    },
+    {
+        "text": "い",
+        "reading": "i",
+        "level": 1
+    },
+    {
+        "text": "う",
+        "reading": "u",
+        "level": 1
+    },
+    {
+        "text": "え",
+        "reading": "e",
+        "level": 1
+    },
+    {
+        "text": "お",
+        "reading": "o",
+        "level": 1
+    },
+    {
+        "text": "か",
+        "reading": "ka",
+        "level": 2
+    },
+    {
+        "text": "き",
+        "reading": "ki",
+        "level": 2
+    },
+    {
+        "text": "く",
+        "reading": "ku",
+        "level": 2
+    },
+    {
+        "text": "け",
+        "reading": "ke",
+        "level": 2
+    },
+    {
+        "text": "こ",
+        "reading": "ko",
+        "level": 2
+    },
+    {
+        "text": "さ",
+        "reading": "sa",
+        "level": 3
+    },
+    {
+        "text": "し",
+        "reading": "shi",
+        "level": 3
+    },
+    {
+        "text": "す",
+        "reading": "su",
+        "level": 3
+    },
+    {
+        "text": "せ",
+        "reading": "se",
+        "level": 3
+    },
+    {
+        "text": "そ",
+        "reading": "so",
+        "level": 3
+    },
+    {
+        "text": "た",
+        "reading": "ta",
+        "level": 4
+    },
+    {
+        "text": "ち",
+        "reading": "chi",
+        "level": 4
+    },
+    {
+        "text": "つ",
+        "reading": "tsu",
+        "level": 4
+    },
+    {
+        "text": "て",
+        "reading": "te",
+        "level": 4
+    },
+    {
+        "text": "と",
+        "reading": "to",
+        "level": 4
+    },
+    {
+        "text": "な",
+        "reading": "na",
+        "level": 5
+    },
+    {
+        "text": "に",
+        "reading": "ni",
+        "level": 5
+    },
+    {
+        "text": "ぬ",
+        "reading": "nu",
+        "level": 5
+    },
+    {
+        "text": "ね",
+        "reading": "ne",
+        "level": 5
+    },
+    {
+        "text": "の",
+        "reading": "no",
+        "level": 5
+    },
+    {
+        "text": "は",
+        "reading": "ha",
+        "level": 6
+    },
+    {
+        "text": "ひ",
+        "reading": "hi",
+        "level": 6
+    },
+    {
+        "text": "ふ",
+        "reading": "fu",
+        "level": 6
+    },
+    {
+        "text": "へ",
+        "reading": "he",
+        "level": 6
+    },
+    {
+        "text": "ほ",
+        "reading": "ho",
+        "level": 6
+    },
+    {
+        "text": "ま",
+        "reading": "ma",
+        "level": 7
+    },
+    {
+        "text": "み",
+        "reading": "mi",
+        "level": 7
+    },
+    {
+        "text": "む",
+        "reading": "mu",
+        "level": 7
+    },
+    {
+        "text": "め",
+        "reading": "me",
+        "level": 7
+    },
+    {
+        "text": "も",
+        "reading": "mo",
+        "level": 7
+    },
+    {
+        "text": "や",
+        "reading": "ya",
+        "level": 8
+    },
+    {
+        "text": "ゆ",
+        "reading": "yu",
+        "level": 8
+    },
+    {
+        "text": "よ",
+        "reading": "yo",
+        "level": 8
+    },
+    {
+        "text": "ら",
+        "reading": "ra",
+        "level": 9
+    },
+    {
+        "text": "り",
+        "reading": "ri",
+        "level": 9
+    },
+    {
+        "text": "る",
+        "reading": "ru",
+        "level": 9
+    },
+    {
+        "text": "れ",
+        "reading": "re",
+        "level": 9
+    },
+    {
+        "text": "ろ",
+        "reading": "ro",
+        "level": 9
+    },
+    {
+        "text": "わ",
+        "reading": "wa",
+        "level": 10
+    },
+    {
+        "text": "を",
+        "reading": "wo",
+        "level": 10
+    },
+    {
+        "text": "ん",
+        "reading": "n",
+        "level": 10
+    },
+    {
+        "text": "が",
+        "reading": "ga",
+        "level": 11
+    },
+    {
+        "text": "ぎ",
+        "reading": "gi",
+        "level": 11
+    },
+    {
+        "text": "ぐ",
+        "reading": "gu",
+        "level": 11
+    },
+    {
+        "text": "げ",
+        "reading": "ge",
+        "level": 11
+    },
+    {
+        "text": "ご",
+        "reading": "go",
+        "level": 11
+    },
+    {
+        "text": "ざ",
+        "reading": "za",
+        "level": 12
+    },
+    {
+        "text": "じ",
+        "reading": "ji",
+        "level": 12
+    },
+    {
+        "text": "ず",
+        "reading": "zu",
+        "level": 12
+    },
+    {
+        "text": "ぜ",
+        "reading": "ze",
+        "level": 12
+    },
+    {
+        "text": "ぞ",
+        "reading": "zo",
+        "level": 12
+    },
+    {
+        "text": "だ",
+        "reading": "da",
+        "level": 13
+    },
+    {
+        "text": "ぢ",
+        "reading": "di",
+        "level": 13
+    },
+    {
+        "text": "づ",
+        "reading": "du",
+        "level": 13
+    },
+    {
+        "text": "で",
+        "reading": "de",
+        "level": 13
+    },
+    {
+        "text": "ど",
+        "reading": "do",
+        "level": 13
+    },
+    {
+        "text": "ば",
+        "reading": "ba",
+        "level": 14
+    },
+    {
+        "text": "び",
+        "reading": "bi",
+        "level": 14
+    },
+    {
+        "text": "ぶ",
+        "reading": "bu",
+        "level": 14
+    },
+    {
+        "text": "べ",
+        "reading": "be",
+        "level": 14
+    },
+    {
+        "text": "ぼ",
+        "reading": "bo",
+        "level": 14
+    },
+    {
+        "text": "ぱ",
+        "reading": "pa",
+        "level": 15
+    },
+    {
+        "text": "ぴ",
+        "reading": "pi",
+        "level": 15
+    },
+    {
+        "text": "ぷ",
+        "reading": "pu",
+        "level": 15
+    },
+    {
+        "text": "ぺ",
+        "reading": "pe",
+        "level": 15
+    },
+    {
+        "text": "ぽ",
+        "reading": "po",
+        "level": 15
+    },
+    {
+        "text": "きゃ",
+        "reading": "kya",
+        "level": 16
+    },
+    {
+        "text": "きゅ",
+        "reading": "kyu",
+        "level": 16
+    },
+    {
+        "text": "きょ",
+        "reading": "kyo",
+        "level": 16
+    },
+    {
+        "text": "しゃ",
+        "reading": "sha",
+        "level": 17
+    },
+    {
+        "text": "しゅ",
+        "reading": "shu",
+        "level": 17
+    },
+    {
+        "text": "しょ",
+        "reading": "sho",
+        "level": 17
+    },
+    {
+        "text": "ちゃ",
+        "reading": "cha",
+        "level": 18
+    },
+    {
+        "text": "ちゅ",
+        "reading": "chu",
+        "level": 18
+    },
+    {
+        "text": "ちょ",
+        "reading": "cho",
+        "level": 18
+    },
+    {
+        "text": "にゃ",
+        "reading": "nya",
+        "level": 19
+    },
+    {
+        "text": "にゅ",
+        "reading": "nyu",
+        "level": 19
+    },
+    {
+        "text": "にょ",
+        "reading": "nyo",
+        "level": 19
+    },
+    {
+        "text": "ひゃ",
+        "reading": "hya",
+        "level": 20
+    },
+    {
+        "text": "ひゅ",
+        "reading": "hyu",
+        "level": 20
+    },
+    {
+        "text": "ひょ",
+        "reading": "hyo",
+        "level": 20
+    },
+    {
+        "text": "みゃ",
+        "reading": "mya",
+        "level": 21
+    },
+    {
+        "text": "みゅ",
+        "reading": "myu",
+        "level": 21
+    },
+    {
+        "text": "みょ",
+        "reading": "myo",
+        "level": 21
+    },
+    {
+        "text": "りゃ",
+        "reading": "rya",
+        "level": 22
+    },
+    {
+        "text": "りゅ",
+        "reading": "ryu",
+        "level": 22
+    },
+    {
+        "text": "りょ",
+        "reading": "ryo",
+        "level": 22
+    },
+    {
+        "text": "ぎゃ",
+        "reading": "gya",
+        "level": 23
+    },
+    {
+        "text": "ぎゅ",
+        "reading": "gyu",
+        "level": 23
+    },
+    {
+        "text": "ぎょ",
+        "reading": "gyo",
+        "level": 23
+    },
+    {
+        "text": "じゃ",
+        "reading": "jya",
+        "level": 24
+    },
+    {
+        "text": "じゅ",
+        "reading": "jyu",
+        "level": 24
+    },
+    {
+        "text": "じょ",
+        "reading": "jyo",
+        "level": 24
+    },
+    {
+        "text": "ぢゃ",
+        "reading": "dya",
+        "level": 25
+    },
+    {
+        "text": "ぢゅ",
+        "reading": "dyu",
+        "level": 25
+    },
+    {
+        "text": "ぢょ",
+        "reading": "dyo",
+        "level": 25
+    },
+    {
+        "text": "びゃ",
+        "reading": "bya",
+        "level": 26
+    },
+    {
+        "text": "びゅ",
+        "reading": "byu",
+        "level": 26
+    },
+    {
+        "text": "びょ",
+        "reading": "byo",
+        "level": 26
+    },
+    {
+        "text": "ぴゃ",
+        "reading": "pya",
+        "level": 27
+    },
+    {
+        "text": "ぴゅ",
+        "reading": "pyu",
+        "level": 27
+    },
+    {
+        "text": "ぴょ",
+        "reading": "pyo",
+        "level": 27
+    }
+]

@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://csvrlabyi0e6y"]
+
+[ext_resource type="StyleBox" uid="uid://bvregir4hmg1d" path="res://Styles/General/StyleEmpty.tres" id="1_4h5ji"]
+[ext_resource type="StyleBox" uid="uid://jif6kacctpri" path="res://Styles/Menu/StyleLeftMenuDefault.tres" id="5_4ahwf"]
+[ext_resource type="StyleBox" uid="uid://cc6g18tf3yjti" path="res://Styles/Menu/StyleLeftMenuHover.tres" id="6_8a5di"]
+[ext_resource type="StyleBox" uid="uid://cuprhys5ybhd1" path="res://Styles/Menu/StyleLeftMenuPressed.tres" id="7_k027w"]
+[ext_resource type="StyleBox" uid="uid://c7eylqokuy4ho" path="res://Styles/Menu/StyleLeftMenuDisabled.tres" id="8_bcg6r"]
+[ext_resource type="StyleBox" uid="uid://oupck02ir2kg" path="res://Styles/Menu/StyleLeftMenuFocused.tres" id="9_yu4ea"]
+
+[node name="Settings" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 2
+text = "- How to search
+-- Categories
+Hiragana, Katakana, Radicals, Kanji, Vocabulary
+
+-- Examples
+\"(text)\", \"text\"
+
+\"(category):\" = \"hiragana:\"
+\"(category): (text)\" = \"hiragana: text\"
+
+\"(category):(level)\" = \"hiragana:1\"
+\"(category):(level) (text)\" = \"hiragana:1 text\"
+
+\"(category):(level-level)\" = \"hiragana:1-10\"
+\"(category):(level-level) (text)\" = \"hiragana:1-10 text\"
+
+\"(category): (category):\" = \"hiragana: katakana:\"
+\"(category): (category): (text)\" = \"hiragana: katakana: text\"
+
+\"(category):(level) (category):(level)\" = \"hiragana:1 hiragana:10\"
+\"(category):(level) (category):(level) (text)\" = \"hiragana:1 hiragana:10 text\""
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = ExtResource("1_4h5ji")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="Back" type="Button" parent="Buttons"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_4ahwf")
+theme_override_styles/hover = ExtResource("6_8a5di")
+theme_override_styles/pressed = ExtResource("7_k027w")
+theme_override_styles/disabled = ExtResource("8_bcg6r")
+theme_override_styles/focus = ExtResource("9_yu4ea")
+text = "Back"
