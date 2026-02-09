@@ -10,4 +10,4 @@ Interactive database of japanese characters with quiz developed in Godot Engine.
 
 - Hiragana, Katakana, Radical, Kanji and Vocabulary databases
 - Relations between characters and vocabulary
-- custom quiz from search
+- Custom quiz from search
